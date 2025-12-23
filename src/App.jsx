@@ -6,8 +6,10 @@ import Dashboard from './pages/dashboard/Dashboard.jsx';
 import Services from './pages/services/Services.jsx';
 import Blog from './pages/blog/Blog.jsx';
 import Portfolio from './pages/portfolio/Portfolio.jsx';
+import About from './pages/aboutPage/About.jsx';
 
 import { Route , Routes } from 'react-router-dom';
+
 
 
 function APP(){
@@ -22,6 +24,7 @@ function APP(){
         <Route path="/Services" element={<Services />}/>
         <Route path="/blog" element={<Blog />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
+        <Route path='/about' element={<About />}/>
       </Routes>
       <Footer />
     </div>
