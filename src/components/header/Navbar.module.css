@@ -20,9 +20,14 @@
   
   .navLinks li {
     cursor: pointer;
+    color: white;
+    font-size: 16px;
     transition: 0.3s;
   }
   
   .navLinks li:hover {
     color: #ffdd57;
+  }
+  a.active{
+    color: red;
   }
